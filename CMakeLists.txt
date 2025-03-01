@@ -18,7 +18,7 @@ qt_add_qml_module(TestQtQuick
     VERSION 1.0
     QML_FILES
         qml/transitions/Main.qml
-        qml/components/CustomButton.qml
+        qml/components/Page.qml
     RESOURCES
         qml.qrc
 )

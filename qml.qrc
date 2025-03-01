@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
         <file>qml/transitions/Main.qml</file>
-        <file>qml/components/CustomButton.qml</file>
-        <file>images/logo.png</file>
+        <file>qml/components/Page.qml</file>
+        <file>images/qt-logo.png</file>
     </qresource>
 </RCC>
