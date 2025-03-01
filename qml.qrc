@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/transitions/Main.qml</file>
+        <file>qml/components/CustomButton.qml</file>
+        <file>images/logo.png</file>
+    </qresource>
+</RCC>

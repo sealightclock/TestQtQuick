@@ -1,15 +1,24 @@
 import QtQuick
 import QtQuick.Controls
+import transitions
 
 ApplicationWindow {
     visible: true
     width: 640
     height: 480
-    title: "QML Module Example"
+    title: "TestQtQuick Example"
 
-    Button {
+    CustomButton {
         text: "Click Me"
         anchors.centerIn: parent
         onClicked: console.log("Button clicked!")
+    }
+
+    Image {
+        source: "qrc:/images/logo.png"
+        width: 100
+        height: 100
+        anchors.top: parent.top
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 }
