@@ -12,6 +12,8 @@ find_package(Qt6 REQUIRED COMPONENTS Quick)
 # Setup Executable
 add_executable(TestQtQuick main.cpp)
 
+file(MAKE_DIRECTORY ${CMAKE_BINARY_DIR}/qml)
+
 # Define QML Module
 qt_add_qml_module(TestQtQuick
     URI transitions
