@@ -1,6 +1,6 @@
 import QtQuick
 import QtQuick.Controls
-import transitions
+import my.qml.module 1.0
 
 ApplicationWindow {
     visible: true

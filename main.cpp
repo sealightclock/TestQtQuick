@@ -7,7 +7,7 @@ int main(int argc, char *argv[]) {
     QQmlApplicationEngine engine;
 
     // Load the QML module named "transitions", starting from Main.qml
-    engine.loadFromModule("transitions", "Main");
+    engine.loadFromModule("my.qml.module", "Main");
 
     if (engine.rootObjects().isEmpty())
         return -1;

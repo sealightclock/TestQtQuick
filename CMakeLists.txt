@@ -14,7 +14,7 @@ add_executable(TestQtQuick main.cpp)
 
 # Define QML Module
 qt_add_qml_module(TestQtQuick
-    URI transitions
+    URI my.qml.module
     VERSION 1.0
     QML_FILES
         qml/transitions/Main.qml
