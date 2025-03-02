@@ -14,13 +14,13 @@ add_executable(TestQtQuick main.cpp)
 
 # Define QML Module
 qt_add_qml_module(TestQtQuick
-    URI my.qml.module
+    URI com.example.jonathan
     VERSION 1.0
     QML_FILES
         qml/transitions/Main.qml
         qml/components/Page.qml
     RESOURCES
-        images/qt-logo.png  # ✅ Explicitly include the image file
+        images/qt-logo.png  # Explicitly include the image file
 )
 
 # This may not always be needed, but is safe.

@@ -2,7 +2,7 @@
  // SPDX-License-Identifier: LicenseRef-Qt-Commercial OR BSD-3-Clause
 
  import QtQuick
- import my.qml.module 1.0
+ import com.example.jonathan 1.0
 
  Window {
      width: 640
