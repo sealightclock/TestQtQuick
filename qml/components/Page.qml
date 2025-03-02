@@ -12,7 +12,7 @@ Rectangle {
         id: icon
         x: 20
         y: 20
-        source: "qt-logo.png"
+        source: "qrc:/images/qt-logo.png"  // ✅ Correct absolute QRC path
     }
 
     Rectangle {

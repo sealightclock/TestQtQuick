@@ -20,7 +20,16 @@ qt_add_qml_module(TestQtQuick
         qml/transitions/Main.qml
         qml/components/Page.qml
     RESOURCES
-        qml.qrc
+        images/qt-logo.png  # ✅ Explicitly include the image file
+)
+
+# This may not always be needed, but is safe.
+#     The image is bundled in the QML module.
+#     Other parts of Qt (like C++ QFile or QImage) can also access the image.
+qt_add_resources(TestQtQuick "resources"
+    PREFIX "/"
+    FILES
+        images/qt-logo.png
 )
 
 # Link Libraries
